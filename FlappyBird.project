@@ -3,7 +3,7 @@
   
   "info": {
     "name": "FlappyBird",
-    "description": "Flappy Bird is casual game",
+    "description": "This is a test project, a clone of the game Flappy Bird developed on the Vecxy game engine",
     "author": "Melkov",
     "version": {
       "game": "0.0.1",
