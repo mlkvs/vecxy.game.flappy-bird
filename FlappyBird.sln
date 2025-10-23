@@ -1,7 +1,7 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Game", "game\FlappyBird.Game\FlappyBird.Game.csproj", "{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Game", "sources\game\FlappyBird.Game\FlappyBird.Game.csproj", "{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Editor", "editor\FlappyBird.Editor\FlappyBird.Editor.csproj", "{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Editor", "sources\editor\FlappyBird.Editor\FlappyBird.Editor.csproj", "{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

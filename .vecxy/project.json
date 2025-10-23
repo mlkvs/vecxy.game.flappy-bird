@@ -1,0 +1,6 @@
+{
+  "type": "GAME",
+  "name": "FlappyBird",
+  "description": "This is a test project, a clone of the game Flappy Bird developed on the Vecxy game engine",
+  "author": "Melkov"
+}

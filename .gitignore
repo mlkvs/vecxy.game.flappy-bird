@@ -3,6 +3,16 @@
 [Oo]bj/
 [Bb]uild/
 
-# Project
+# Executables
+*.exe
 
+# Package Files
+*.zip
+*.rar
+*.tar.gz
+
+# IDE
 .idea
+.vs
+
+
