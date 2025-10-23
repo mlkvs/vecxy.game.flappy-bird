@@ -6,6 +6,23 @@
         <Nullable>enable</Nullable>
 
         <EnginePath>$(VECXY_PATH)</EnginePath>
+
+        <!-- Критически важные настройки для отладки -->
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+
+        <!-- Убедитесь, что сборка компилируется с отладочной информацией -->
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Optimize>false</Optimize>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
     </PropertyGroup>
 
     <ItemGroup>
@@ -34,4 +51,8 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
+
+    <Target Name="EnsurePDB" AfterTargets="Build">
+        <Message Text="Building with PDB files for debugging" Importance="high"/>
+    </Target>
 </Project>
