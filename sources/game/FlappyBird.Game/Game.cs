@@ -1,5 +1,4 @@
-﻿using System;
-using Vecxy.Engine;
+﻿using Vecxy.Engine;
 using Zenject;
 
 namespace FlappyBird.Game;
@@ -8,22 +7,21 @@ public class Game : IGame
 {
     public Game()
     {
-        Console.WriteLine("test2");
+        Console.WriteLine("Game.Ctor");
     }
     
     public void InstallBindings(DiContainer container)
     {
-        System.Diagnostics.Debugger.Break();
-        Console.WriteLine("testasas");
+        Console.WriteLine("Game.InstallBindings");
     }
 
     public void Initialize()
     {
-        Console.WriteLine("test");
+        Console.WriteLine("Game.Initialize");
     }
 
     public void Update(float deltaTime)
     {
-        
+        Console.WriteLine("Game.Update");
     }
 }

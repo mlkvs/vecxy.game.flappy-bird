@@ -6,14 +6,9 @@
         <Nullable>enable</Nullable>
 
         <EnginePath>$(VECXY_PATH)</EnginePath>
-
-        <!-- Критически важные настройки для отладки -->
+        
         <DebugType>portable</DebugType>
         <DebugSymbols>true</DebugSymbols>
-        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-        <PreserveCompilationContext>true</PreserveCompilationContext>
-
-        <!-- Убедитесь, что сборка компилируется с отладочной информацией -->
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Optimize>false</Optimize>
         <OutputType>Library</OutputType>
