@@ -1,5 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" >
     <PropertyGroup>
-        <OutDir>./bin</OutDir>
+        <OutDir>..\..\..\temp\libs</OutDir>
     </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\FlappyBird.Test\FlappyBird.Test.csproj" />
+    </ItemGroup>
 </Project>
