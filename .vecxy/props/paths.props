@@ -9,6 +9,7 @@
 
         <TempDir>$([System.IO.Path]::Combine($(SolutionDir), `temp`))</TempDir>
         <TempBinDir>$([System.IO.Path]::Combine($(TempDir), `bin`))</TempBinDir>
+        <TempObjDir>$([System.IO.Path]::Combine($(TempDir), `obj`))</TempObjDir>
 
         <EnginePath>$(VECXY_PATH)</EnginePath>
     </PropertyGroup>

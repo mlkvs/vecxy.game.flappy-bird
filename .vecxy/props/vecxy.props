@@ -1,27 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Import Project="./paths.props"/>
-    
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        
-        <OutputType>Library</OutputType>
-        <OutDir>$(TempBinDir)</OutDir>
-    </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <DefineConstants>DEBUG</DefineConstants>
-        <DebugType>portable</DebugType>
-        <DebugSymbols>true</DebugSymbols>
-        <Optimize>false</Optimize>
-    </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-        <DebugSymbols>false</DebugSymbols>
-    </PropertyGroup>
-    
     <ItemGroup>
         <Reference Include="Vecxy.Engine">
             <HintPath>$(EnginePath)\Vecxy.Engine.dll</HintPath>
