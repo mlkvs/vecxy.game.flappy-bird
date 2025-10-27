@@ -1,10 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Game", "sources\game\FlappyBird.Game\FlappyBird.Game.csproj", "{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Editor", "sources\editor\FlappyBird.Editor\FlappyBird.Editor.csproj", "{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird.Test", "FlappyBird.Test\FlappyBird.Test.csproj", "{1C681DBE-EA90-4946-8245-278075C176F5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,13 +12,5 @@ Global
 		{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43C2EF5-2B93-4EAC-8F74-B07E3CD3DAFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1270482E-2EEC-4C2D-A5A6-6BBF54F938A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C681DBE-EA90-4946-8245-278075C176F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C681DBE-EA90-4946-8245-278075C176F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C681DBE-EA90-4946-8245-278075C176F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C681DBE-EA90-4946-8245-278075C176F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

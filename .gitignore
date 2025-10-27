@@ -15,4 +15,7 @@
 .idea
 .vs
 
+# Project
+temp/
+
 

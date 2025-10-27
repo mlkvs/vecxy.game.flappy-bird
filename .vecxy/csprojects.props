@@ -1,25 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
+    <Import Project="./paths.props"/>
+    
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-
-        <EnginePath>$(VECXY_PATH)</EnginePath>
         
-        <DebugType>portable</DebugType>
-        <DebugSymbols>true</DebugSymbols>
-        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-        <Optimize>false</Optimize>
         <OutputType>Library</OutputType>
+        <OutDir>$(TempBinDir)</OutDir>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <DefineConstants>DEBUG</DefineConstants>
         <DebugType>portable</DebugType>
         <DebugSymbols>true</DebugSymbols>
+        <Optimize>false</Optimize>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>false</DebugSymbols>
+    </PropertyGroup>
+    
     <ItemGroup>
         <Reference Include="Vecxy.Engine">
             <HintPath>$(EnginePath)\Vecxy.Engine.dll</HintPath>
@@ -46,8 +48,4 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
-
-    <Target Name="EnsurePDB" AfterTargets="Build">
-        <Message Text="Building with PDB files for debugging" Importance="high"/>
-    </Target>
 </Project>
