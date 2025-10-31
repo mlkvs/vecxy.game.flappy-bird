@@ -1,21 +1,18 @@
-# Builds
-[Bb]in/
-[Oo]bj/
-[Bb]uild/
-
-# Executables
-*.exe
+# Project
+build/
+temp/
 
 # Package Files
+*.exe
+*.bank
+*.pack
+
+# Archives
 *.zip
 *.rar
-*.tar.gz
+*.tar
 
 # IDE
 .idea
 .vs
-
-# Project
-temp/
-
-
+.vscode
