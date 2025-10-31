@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "a9f94b5d289cd92f",
+    "id": "f3579cfbb3fab17f",
     "type": "split",
     "children": [
       {
-        "id": "dc1679aae88a7d32",
+        "id": "fd12326f4e403447",
         "type": "tabs",
         "children": [
           {
-            "id": "19c6e2316e6139f0",
+            "id": "7a12806183892104",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf6e7e0be8460f13",
+    "id": "9d01b3dcb8dad995",
     "type": "split",
     "children": [
       {
-        "id": "baf7939b2c9e428e",
+        "id": "3ea97f05ac39856c",
         "type": "tabs",
         "children": [
           {
-            "id": "c94fc4003840da87",
+            "id": "cd025681b295ecab",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "70cefc693c411804",
+            "id": "c05264c28a690110",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "1a12eece8e66ddc8",
+            "id": "71a22e9df8d08f90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "ad74f0ccd3bcde0a",
+    "id": "c266b3e2f459f528",
     "type": "split",
     "children": [
       {
-        "id": "473fbb5474aa6be7",
+        "id": "cb957a0c58768412",
         "type": "tabs",
         "children": [
           {
-            "id": "9346df26930b518a",
+            "id": "0c91bfe987814a36",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +103,7 @@
             }
           },
           {
-            "id": "6aeb5880960904d4",
+            "id": "2a9b82272c5de8e0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +116,7 @@
             }
           },
           {
-            "id": "61e65e79a7715622",
+            "id": "9e201f54fb7a1320",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,18 +131,17 @@
             }
           },
           {
-            "id": "d56abae215712dc1",
+            "id": "b5b75a7658c35a13",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
             }
           }
         ]
@@ -167,28 +162,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "c94fc4003840da87",
-  "lastOpenFiles": [
-    "Untitled.md",
-    "README.md",
-    "vault",
-    "vault/ГДД/Цифровой ковчег.md",
-    "vault/ТЗ/ТЗ. Цифровой ковчег.md",
-    "vault/Рынок/Проекты конкренты.md",
-    "vault/Картинки/цифровой_ковчег_ии_реф_2.png",
-    "vault/Картинки/цифровой_ковчег_ии_реф_1.png",
-    "vault/Картинки",
-    "vault/ГДД/Персонаж.md",
-    "vault/Черновик.md",
-    "vault/ТЗ",
-    "README.md",
-    "vault/ГДД",
-    "vault/Рынок",
-    "vault/Информация",
-    "vault/Информация/Дирекция.md",
-    "vault/Информация/Биокомпьютер.md",
-    "vault/Информация/Антропоморфные механизмы.md",
-    "vault",
-    "Welcome.md"
-  ]
+  "active": "7a12806183892104",
+  "lastOpenFiles": []
 }
