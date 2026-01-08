@@ -10,20 +10,5 @@
             <HintPath>$(EnginePath)\Vecxy.Diagnostics.dll</HintPath>
             <Private>false</Private>
         </Reference>
-
-        <Reference Include="Zenject">
-            <HintPath>$(EnginePath)\Zenject.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
-
-        <Reference Include="Zenject-usage">
-            <HintPath>$(EnginePath)\Zenject-usage.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
-
-        <Reference Include="Zenject-Signals">
-            <HintPath>$(EnginePath)\Zenject-Signals.dll</HintPath>
-            <Private>false</Private>
-        </Reference>
     </ItemGroup>
 </Project>
