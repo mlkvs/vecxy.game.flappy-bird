@@ -1,6 +1,6 @@
 # Project
-build/
-temp/
+Build/
+Temp/
 
 # Package Files
 *.exe
