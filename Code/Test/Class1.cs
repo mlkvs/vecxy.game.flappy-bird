@@ -1,4 +1,6 @@
-﻿namespace Test;
+﻿using Vecxy.Engine;
+
+namespace Test;
 
 public class Class1
 {

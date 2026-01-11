@@ -1,13 +1,12 @@
 ﻿using Test;
-using Vecxy;
 using Vecxy.Diagnostics;
 using Vecxy.Engine;
 
 namespace FlappyBird.Game;
 
-public class Boot : Vecxy.Engine.Game
+public class Game : Application
 {
-    public Boot(GameInfo info) : base(info)
+    public Game()
     {
         Logger.Info("Game.Ctor");
 
@@ -15,13 +14,12 @@ public class Boot : Vecxy.Engine.Game
         t.Test();
     }
 
-    public override void Initialize()
+    public override void OnInitialize()
     {
-        
+       
     }
 
-    public override void Update()
+    public override void OnTick()
     {
-        
     }
 }

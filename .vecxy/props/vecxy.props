@@ -3,12 +3,12 @@
     <ItemGroup>
         <Reference Include="Vecxy.Engine">
             <HintPath>$(EnginePath)\Vecxy.Engine.dll</HintPath>
-            <Private>false</Private>
+<!--            <Private>false</Private>-->
         </Reference>
 
         <Reference Include="Vecxy.Diagnostics">
             <HintPath>$(EnginePath)\Vecxy.Diagnostics.dll</HintPath>
-            <Private>false</Private>
+<!--            <Private>false</Private>-->
         </Reference>
     </ItemGroup>
 </Project>
