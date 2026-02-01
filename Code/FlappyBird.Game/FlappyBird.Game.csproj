@@ -1,14 +1,2 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" >
-  <PropertyGroup>
-    <PackageId>FlappyBird.Game</PackageId>
-    <Authors>FlappyBird.Game</Authors>
-    <Company>FlappyBird.Game</Company>
-    <Product>FlappyBird.Game</Product>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Test\Test.csproj" />
-  </ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
     <Import Project="./paths.props"/>
     
     <PropertyGroup Label="MSBUILD_CFG_SHARED">
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
@@ -16,7 +16,7 @@
     </PropertyGroup>
     
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' " Label="MSBUILD_CFG_DEBUG">
-        <OutDir>$(TempBinDebugDir)</OutDir>
+        <OutDir Condition="'$(OutDir)' == ''">$(TempBinDebugDir)</OutDir>
 
         <IntermediateOutputPath>$(TempObjDebugDir)</IntermediateOutputPath>
         <BaseIntermediateOutputPath>$(TempObjDebugDir)</BaseIntermediateOutputPath>
@@ -30,7 +30,7 @@
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' " Label="MSBUILD_CFG_RELEASE">
-        <OutDir>$(TempBinReleaseDir)</OutDir>
+        <OutDir Condition="'$(OutDir)' == ''">$(TempBinReleaseDir)</OutDir>
 
         <IntermediateOutputPath>$(TempObjReleaseDir)</IntermediateOutputPath>
         <BaseIntermediateOutputPath>$(TempObjReleaseDir)</BaseIntermediateOutputPath>

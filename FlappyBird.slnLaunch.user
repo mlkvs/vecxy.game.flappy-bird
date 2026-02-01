@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Code\\FlappyBird.Game\\FlappyBird.Game.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

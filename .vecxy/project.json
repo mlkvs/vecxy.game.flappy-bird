@@ -1,7 +1,7 @@
-{
-  "type": "GAME",
-  "name": "FlappyBird",
-  "description": "This is a test project, a clone of the game Flappy Bird developed on the Vecxy game engine",
-  "author": "Melkov",
-  "version": "0.0.1"
+ {
+  "Type": "GAME",
+  "Name": "FlappyBird",
+  "Description": "Clone game for testing game engine",
+  "Author": "Melkov",
+  "Version": "0.0.1"
 }
