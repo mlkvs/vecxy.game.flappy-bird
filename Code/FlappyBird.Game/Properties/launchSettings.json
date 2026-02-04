@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FlappyBird": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Projects\\vecxy\\vecxy.game.flappy-bird\\Build\\FlappyBird.exe",
+      "nativeDebugging": true
+    }
+  }
+}
